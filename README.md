@@ -14,7 +14,7 @@ This project contains locations of `Illinois State University`, `cafe`, `pub` an
 
 1) Get your Google Maps API key from [Google Maps Developer Site](https://developers.google.com/maps/documentation/javascript/tutorial)
 2) Get your Foursquare clientID and clientSecret from [Foursquare Developer site](https://developer.foursquare.com/overview/auth)
-3) Update `js/app.js` file with your key and client information
+3) Update `js/main.js` file with your key and client information
 4) Open `index.html` file to use the project
 
 
