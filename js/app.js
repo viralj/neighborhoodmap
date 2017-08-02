@@ -1,5 +1,8 @@
 'use strict';
 
+/*
+ * Initial locations with latitude and longitude
+ * */
 var initialLocations = [
     {
         name: 'Quad (Illinois State University)',
