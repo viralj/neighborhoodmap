@@ -1,4 +1,4 @@
-# Udacity Neihhborhood Map project for Full Stack Web Developer Nanodegree
+# Udacity Neighborhood Map project for Full Stack Web Developer Nanodegree
 
 # Bloomington-Normal IL, Neighborhood map
 
