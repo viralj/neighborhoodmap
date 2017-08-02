@@ -18,6 +18,6 @@ This project contains locations of `Illinois State University`, `cafe`, `pub` an
 
 # Check out live version
 
-1. Visit: ➡  <https://viralj.github.io/neighborhoodmap/> 
+1. Visit: <https://viralj.github.io/neighborhoodmap/> 
 2. Select any places from list in left side 
 3. Search for the place in top search bar
