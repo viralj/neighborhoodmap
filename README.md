@@ -1,27 +1,23 @@
-# San Francisco South Bay Neighborhood Map Project 🚋
+# Bloomington-Normal IL, Neighborhood map
 
-![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
+Udacity Neighborhood map project, part of Full Stack Web Developer Nanodegree program.
 
-> Developed for Project 5-1 of the **Udacity Front-End Web Developer Nanodegree**. 🎓
+Download zip file and open `index.html` file to view project. Clone or fork to modify and make changes.
 
-This is the **Udacity Neighborhood Map Project**. It's intended as a challenge to put together a website from various APIs. This includes making function calls to Google Maps and other location-based services like Foursquare. 🔰
+# Locations and information
 
-Included is a list of my and my friends' favorite restaurants and hangouts in the South San Francisco Bay Area of California. 🍽 
+This project contains locations of `Illinois State University`, `cafe`, `pub` and other places near `ISU Campus`.
 
-I also included some local parks in the area. 🌳 🌲
+# To use the project,
 
-The app allows you to filter the list down as you type. In return, it displays the locations on the map. 🗺
-
-There's also extra info pulled from Foursquare where available. This includes websites and phone numbers. ☎️
-
-The app is responsive, too! It resizes using CSS Flexbox and media queries. 
-
-It can also recalibrate itself based on your screen size. Try resizing the window! 🖥 📲
+1) Get your Google Maps API key from <https://developers.google.com/maps/documentation/javascript/tutorial>
+2) Get your Foursquare clientID and clientSecret from <https://developer.foursquare.com/overview/auth>
+3) Update `js/app.js` file with your key and client information
+4) Open `index.html` file to use the project
 
 
+# Check out live version
 
-# How To Use
-
-1. Click here to try it out: ➡  <https://viralj.github.io/neighborhoodmap/> 
-2. Click on any of the places on the map / sidebar for more information
-3. Type in the white bar if you only want to see a few of the places listed on the map to make it easier to spot.
+1. Visit: ➡  <https://viralj.github.io/neighborhoodmap/> 
+2. Select any places from list in left side 
+3. Search for the place in top search bar
