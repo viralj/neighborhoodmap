@@ -1,5 +1,6 @@
-'use strict';
+// 'use strict';
 
+/*jshint strict:false */
 /*global google */
 /*global Google */
 /*global alert */
