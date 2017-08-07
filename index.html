@@ -26,20 +26,22 @@
 </nav>
 
 <!--Body container-->
-<div class="container">
 
+<div class="container">
     <div class="row">
 
         <!--Search-->
         <div class="col s12 m12 l12">
-            <div class="search white z-depth-2" id="search">
-                <input class="search-box" placeholder="Search here" id="search-box"
-                       data-bind="textInput: searchTerm, valueUpdate: 'afterkeydown'"/>
+            <div class="row white z-depth-1">
+                <div class="search white" id="search">
+                    <input class="search-box" placeholder="Search here" id="search-box"
+                           data-bind="textInput: searchTerm, valueUpdate: 'afterkeydown'"/>
+                </div>
             </div>
         </div>
 
         <!--List and Map-->
-        <div class="col l12 ">
+        <div class="col s12 m12 l12 ">
             <div class="row white z-depth-3">
                 <div class="app" id="app">
                     <div class="list col l3" id="list">
@@ -53,14 +55,14 @@
         </div>
 
     </div>
-
 </div>
 
+
 <!--Required js-->
-<script src='js/main.js'></script>
+<script src='js/app.js'></script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC20SeYKj25Mx2uRzWykopfkzQorPyZko&callback=startApp&libraries=places"
-        onerror="errorHandling()"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC20SeYKj25Mx2uRzWykopfkzQorPyZko&callback=run&libraries=places"
+        onerror="alert('Cannot load Google Maps. Please Refresh page or try again.');"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 
 </body>
